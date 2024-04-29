@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:15px;
+    box-shadow: 0 1px 8px #ddd;
+}
+.nav-title{
+    margin-right: auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.title-dot{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+}
+.nav-title:hover .title-dot{
+    color: #EC7207;
+}
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    transition-duration: .2s;
+}
+.pageLinks{
+    color: black;
+}
+header li:hover{
+    cursor: pointer;
+    color: #EC7207;
+    text-decoration: underline solid black;
+    text-underline-offset: 5px;
+}
+.about{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 400px;
+}
+.aav-text{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #EC7207;
+}
+.logo-container{
+    padding: 2em;
+    margin-right: 100px;
+}
+.about-text{
+    padding: 80px 20px 20px 80px;
+}
+.about-text>h1{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+}
+.about-text>p{
+    font-size: 0.85em;
+    margin-top: 1cm;
+}
+.core-container{
+    background-color: #EEC643;
+    color: white;
+    height: fit-content;
+    padding: 20px;
+}
+.core-title{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    cursor: pointer;
+    text-shadow: 2px 2px #183C28;
+    transition-duration: .5s;
+}
+.core-title:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.card-container{
+    padding: 20px;
+    width: 15em;
+    border-radius: 20px;
+    transition-duration: .4s;
+    color: black;
+    background-color: white;
+    margin-top: 1em;
+}
+.card-container:hover{
+    box-shadow: 6px 6px #183C28;
+}
+.card-pic{
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    
+}
+.card-name{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: .5cm;
+    font-size: 30px;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    background:none;
+    border: none;
+}
+.footer{
+    padding: 10px;
+    box-shadow: 0 -1px 8px grey;
+}
+.social img{
+    width: 30px;
+    margin: 10px 10px 10px 0px;
+    transition-duration: .5s;
+}
+.social img:hover{
+    transform: rotate(20deg);
+}
+.carousel-item{
+    height: 87vh;
+    width: auto;
+}
+.carousel-caption{
+    text-shadow: 2px 2px 5px black;
+}
+.d-block{
+    object-fit:cover;
+}
+.error-container{
+    height: 72.1vh;
+    width: auto;
+    padding: 25vh;
+}
